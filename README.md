@@ -5,6 +5,9 @@ My demo projects built in by React is in this repo.
 ## Projects
 
 - [Todo List](https://github.com/rajatsardesai/react-demo-project/tree/master/Todo%20List)
+- [Slot Machine](https://github.com/rajatsardesai/react-demo-project/tree/master/Slot%20Machine)
+- [Covid Tracker](https://github.com/rajatsardesai/react-demo-project/tree/master/Covid-19%20Tracker)
+- [Demo React Website](https://github.com/rajatsardesai/react-demo-project/tree/master/Demo%20React%20Website)
 
 ### Prerequisites
 
