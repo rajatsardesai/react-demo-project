@@ -8,15 +8,18 @@ const todoReducer = (state = initialData, action) => {
 
             const { id, data } = action.payload;
 
-            return {
-                ...state,
-                list: [
-                    ...state.list,
-                    {
-                        id: id,
-                        data: data
-                    }]
+            if (data.length > 2) {
+                return {
+                    ...state,
+                    list: [
+                        ...state.list,
+                        {
+                            id: id,
+                            data: data
+                        }]
+                }
             }
+            break;
 
         case "DELETE_TODO":
 

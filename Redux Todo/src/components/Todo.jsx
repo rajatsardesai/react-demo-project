@@ -37,18 +37,13 @@ export const Todo = () => {
                     }
 
                     {
-                        list !== '' ?
+                        list != '' ?
                             <div className="button mt-4">
                                 <button className="btn btn-danger w-100" onClick={() => dispatch(removeTodo())}>Remove All</button>
-                            </div> : null
-                    }
-
-                    {
-                        list === '' ?
-                            <div className="h-100 p-5 bg-light border rounded-3 mt-4">
+                            </div> : <div className="h-100 p-5 bg-light border rounded-3 mt-4">
                                 <h2>Note is empty</h2>
                                 <p>Please add note above.</p>
-                            </div> : null
+                            </div>
                     }
 
                 </div>
